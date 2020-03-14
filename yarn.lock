@@ -654,6 +654,15 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@botsquad/sdk@^0.5.1":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@botsquad/sdk/-/sdk-0.5.3.tgz#9a644f9a9b3c525a1ffef899a2e9163082e01375"
+  integrity sha512-3RBowu/olSdeJ2RPvDp/Br2tQqpYjRiReuGqZx7kDJXvDPgHDqCXK3NdLguHNPk3zDvZFqPocKVKbIrfJOVDXw==
+  dependencies:
+    phoenix "^1.4.10"
+    ste-simple-events "^1.6.3"
+    whatwg-fetch "^3.0.0"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -1144,9 +1153,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.3.0"
@@ -2228,6 +2237,11 @@ escape-html@~1.0.3:
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
+escape-string-regexp@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
@@ -3134,7 +3148,7 @@ inquirer@^7.0.0:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5075,6 +5089,11 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+phoenix@^1.4.10:
+  version "1.4.15"
+  resolved "https://registry.yarnpkg.com/phoenix/-/phoenix-1.4.15.tgz#2cc86104e7c7309e8fa09a3137773000898c3b05"
+  integrity sha512-GKUGZzpEYARNcr5Rr5LbMzifzChOB/YrvKd53umSMIhptygKNrHMRLWSoINuBJ8TkQC0RRwez8IRomHdHY8Y6Q==
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -5253,6 +5272,14 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
   integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
+
+react-native-webview@^7.5.1:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-7.6.0.tgz#6bae76430200be5e5ead7d986af2fa341b650186"
+  integrity sha512-IQWtIpCTYb4dTshAJO3hMM9Ms5T6KRpk6qWqgBTGMdmgeEvSxWz9l7Og1ALhb7T7NoAnPy8w/dQmD9LlbGGs5g==
+  dependencies:
+    escape-string-regexp "2.0.0"
+    invariant "2.2.4"
 
 react-native@0.61.4:
   version "0.61.4"
@@ -5952,6 +5979,18 @@ static-extend@^0.1.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+ste-core@^1.6.7:
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/ste-core/-/ste-core-1.6.8.tgz#25b0d37bf2566f4ec1789e2448f5ff730feede07"
+  integrity sha512-dFWSWNeGFj0LQCTK1c1Yi3k+hnOkAelEb88269WQwDInw8brTbXUlFE281EvyRsS61lvOgpOAAVnuLa48PEh0w==
+
+ste-simple-events@^1.6.3:
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/ste-simple-events/-/ste-simple-events-1.6.8.tgz#bd5d0de49bb0c562ff8fbdf346337038a5e95902"
+  integrity sha512-9Jzcx4n3x8XP7Kc/FD83aqyAPSIW1euc07+0wo16fS9cCK8DdooSy7mnXI47uej8T7gccqtXATROA+WFNYFs2A==
+  dependencies:
+    ste-core "^1.6.7"
 
 stealthy-require@^1.1.1:
   version "1.1.1"
